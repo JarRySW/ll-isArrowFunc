@@ -4,11 +4,11 @@
   "description": "check one func is a arrow func or not",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JarRySW/ll-isArrowFunc.git"
+    "url": "git+https://github.com/JarRySW/ll-isArrowFunc.git"
   },
   "keywords": [
     "arrow",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/JarRySW/ll-isArrowFunc/issues"
   },
-  "homepage": "https://github.com/JarRySW/ll-isArrowFunc#readme"
+  "homepage": "https://github.com/JarRySW/ll-isArrowFunc#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "ll-type": "^1.0.0"
+  }
 }
